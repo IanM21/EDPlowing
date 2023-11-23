@@ -2,13 +2,13 @@ body {
     background-color: #f9690e !important;
 }
 
-li {
+.nav-item {
     background-color: #f9690e !important;
     color: white !important;
     font-weight: bolder !important;
 }
 
-li:hover {
+.nav-item:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
     opacity: 0.3;
@@ -49,6 +49,10 @@ input[type=submit]:hover {
 
 h1 {
     font-family: 'Montserrat-Alt1', sans-serif !important;
+}
+
+.checked {
+    color: orange;
 }
 
 @keyframes shake {
